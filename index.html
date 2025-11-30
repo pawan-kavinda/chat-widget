@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot Widget Test</title>
+  </head>
+  <body>
+    <h1>Testing Chatbot Widget</h1>
+
+    <!-- Use the custom element -->
+    <agent-widget
+      api_url="http://localhost:4001/chat"
+      company_uuid="6928391c98df74575861d5ed"
+      type="customer_agent"
+      primary_color="#ff5722"
+    ></agent-widget>
+
+    <!-- Load the Web Component -->
+    <script src="./widget.js" defer></script>
+  </body>
+</html>
