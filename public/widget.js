@@ -464,11 +464,7 @@ class AgentWidget extends HTMLElement {
                 </svg>
                 <div class="company-name">Agent AI</div>
               </div>
-            </div>
-            <div class="status-text">
-              <div class="status-indicator"></div>
-              Online
-            </div>
+            </div>           
           </div>
           <div class="close-btn">×</div>
         </div>
