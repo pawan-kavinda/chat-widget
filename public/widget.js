@@ -12,7 +12,7 @@ class AgentWidget extends HTMLElement {
   // --- Read attributes from HTML tag ---
   get config() {
     return {
-      apiUrl: "https://agent-api-huh9hqfcg4fjgwfk.eastasia-01.azurewebsites.net/chat",
+      apiUrl: this.getAttribute("api_url") || "https://agent-api-huh9hqfcg4fjgwfk.eastasia-01.azurewebsites.net/chat",
       historyUrl: this.getAttribute("history_url") || "http://localhost:4001/chat/history",
       company_uuid: this.getAttribute("company_uuid"),
       type: this.getAttribute("type") || "customer_agent",
